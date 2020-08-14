@@ -4,9 +4,14 @@
     <Snackbar />
       <v-main>
         <v-container
-          class="fill-height"
           fluid
         >
+          <v-row align="center" justify="center" class="mb-0">
+            <v-col cols="12" md="3">
+              <v-img src="/img/logo.png" width="350px" align="center" class="ml-12" justify="center" position="center center"></v-img>
+            </v-col>
+          </v-row>
+       
           <v-row
             align="center"
             justify="center"

@@ -13,11 +13,11 @@ export default {
     visualizar: (id) => {
         return http.get(`/fornecedor/${id}`)
     },
-    atualizar: (data, id) => {
-        return http.put(`/fornecedor/${id}`, data)
+    atualizar: (data) => {
+        return http.put(`/dashboard/fornecedor/${data.id}`, data)
     },
     verificarCadastro: (id) => {
-        return http.put(`/fornecedor/${id}`, {
+        return http.put(`/dashboard/fornecedor/${id}`, {
             verificado: true
         })
     },
